@@ -1,0 +1,14 @@
+.top-menu{
+    background: #42ad72;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    font-size: 22px;
+    line-height: 1px;
+    margin: right 10px;
+    margin-left:-2px;
+    color: white;
+}
+.top-menu2 {
+    display: none;
+}
