@@ -1,14 +1,27 @@
+body{
+    width: 100%;
+}
 .top-menu{
     background: #42ad72;
     width: 100%;
-    padding: 10px;
     text-align: left;
     font-size: 22px;
     line-height: 1px;
-    margin: right 10px;
-    margin-left:-2px;
     color: white;
+    display:inline-block;
 }
-.top-menu2 {
+.top-menu2{
+    display:none
+}
+.topbox{
+    width: 100%;
+}
+.topbox2{
     display: none;
+}
+.main-photo{
+    margin-top: -10px;
+}
+.topbox3{
+    display: block;
 }
