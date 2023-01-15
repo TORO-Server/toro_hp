@@ -1,120 +1,158 @@
-body{
-    font-size: 20px;
-    background: #d0eafc;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
-    margin: 0px;
-    color:black;
-    margin-top: 0px;
-    padding: 0px;
-  }
-  @font-face {
-    font-family: 'Kaushan Script';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://themes.googleusercontent.com/static/fonts/kaushanscript/v1/qx1LSqts-NtiKcLw4N03IFhlQWQpSCpzb2Peu3I-Q34.woff) format('woff');
-  }
-  
-  /*@media screen and (max-width: 768px)*/
-
-  .top-menu{
-    background: #da5757;
-    width: 100%;
-    text-align: left;
-    font-size: 22px;
-    line-height: 1px;
-    color: white;
-    display:inline-block;
-  }
-  .top-menu2{
-    padding-top: 5px;
-  }
-  .icon{
-    float:left;
-    margin:10px;
-    margin-right:10px;
-  }
-  .title{
-    font-size: 60px;
-    font-family: 'Noto Serif JP', serif;
+body {
+  font-size: 20px;
+  background: #d0eafc;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+  margin: 0px;
+  color: black;
+  margin-top: 0px;
+  padding: 0px;
 }
-.topbox{
+
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://themes.googleusercontent.com/static/fonts/kaushanscript/v1/qx1LSqts-NtiKcLw4N03IFhlQWQpSCpzb2Peu3I-Q34.woff) format('woff');
+}
+
+/*@media screen and (max-width: 768px)*/
+
+.top-menu {
+  background: #da5757;
+  width: 100%;
+  text-align: left;
+  font-size: 22px;
+  line-height: 1px;
+  color: white;
+  display: inline-block;
+}
+
+.top-menu2 {
+  padding-top: 5px;
+}
+
+.icon {
+  float: left;
+  margin: 10px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 60px;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.topbox {
   margin-top: 10px;
 }
-  .box{
-    margin-top: 10px;
-    font-family: 'Noto Serif JP';
-    width: 350px;
-    display: inline-block;
+
+.box {
+  margin-top: 10px;
+  font-family: 'Noto Serif JP';
+  width: 350px;
+  display: inline-block;
 }
-.left{
+
+.left {
   width: 700px;
 }
-.right{
+
+.right {
   width: 350px;
   height: 900px;
 }
-.box2{
+
+.box2 {
   margin-top: 10px;
   font-family: 'Noto Serif JP';
   width: 200px;
   display: inline-block;
 }
-.box2left{
+
+.box2left {
   width: calc(100% - 350px);
   height: 750px;
 }
-.box2-right{
+
+.box2-right {
   width: 350px;
   margin-right: 10px;
 }
 
-.topbox2{
+.topbox2 {
   margin-top: 10px;
   display: flex;
   width: 100%;
-  
+
 }
-.box2-class-color-owner{
+
+.box2-class-color-owner {
   background-color: purple;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 200px;
 }
-.box2-class-color-admin{
+
+.box2-class-color-admin {
   background-color: rgb(0, 82, 0);
   color: white;
   width: 210px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.box2-class-color-admin2{
+
+.box2-class-color-admin2 {
   background-color: rgb(0, 82, 0);
   color: white;
   width: 210px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.box2-class-color-admin3{
+
+.box2-class-color-admin3 {
   background-color: rgb(0, 82, 0);
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.box2-class-color-none{
+
+.box2-class-color-none {
   background-color: rgb(65, 65, 65);
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.topbox3{
+
+.topbox3 {
   display: flex;
   margin-top: 10px;
 }
-.link-discord{
+
+.link-discord {
   margin: auto;
 }
-.link-rule{
+
+.link-rule {
   margin: auto;
 }
-.link-dyn{
+
+.link-dyn {
   margin: auto;
 }
-.link-twitter{
+
+.link-twitter {
   margin: auto;
+}
+
+.PlayerSkin {
+  width: 70%;
+}
+
+.ono {
+  width: 50%;
+}
+
+.box-icon img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.box-photo img {
+  width: calc(100% - 35px);
 }
